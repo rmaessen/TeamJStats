@@ -1,0 +1,14 @@
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\TeamJStats.DataAccess.dll.config
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\TeamJStats.DataAccess.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\TeamJStats.DataAccess.pdb
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\TeamJStats.Domain.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\TeamJStats.Domain.pdb
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\obj\Debug\TeamJStats.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\obj\Debug\TeamJStats.DataAccess.Migrations.InitialCreate.resources
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\obj\Debug\TeamJStats.DataAccess.csproj.GenerateResource.Cache
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\obj\Debug\TeamJStats.DataAccess.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.DataAccess\obj\Debug\TeamJStats.DataAccess.pdb

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{840B425B-E6AC-411B-B502-25F578468231}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TeamJStats.Services</RootNamespace>
+    <AssemblyName>TeamJStats.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IImportService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ImportService.cs" />
+    <Compile Include="XmlStats\Infrastructure\IUrlEncoderInfo.cs" />
+    <Compile Include="XmlStats\Infrastructure\Urls.cs" />
+    <Compile Include="XmlStats\Services\BoxScores\XmlStatsBoxScoreService.cs" />
+    <Compile Include="XmlStats\Infrastructure\Requestor.cs" />
+    <Compile Include="XmlStats\Models\XmlStatsBasketballStats.cs" />
+    <Compile Include="XmlStats\Models\XmlStatsEvent.cs" />
+    <Compile Include="XmlStats\Services\Events\XmlStatsEventListOptions.cs" />
+    <Compile Include="XmlStats\Services\Events\XmlStatsEventsService.cs" />
+    <Compile Include="XmlStats\Models\XmlStatsNbaBoxScore.cs" />
+    <Compile Include="XmlStats\Models\XmlStatsSite.cs" />
+    <Compile Include="XmlStats\Models\XmlStatsTeam.cs" />
+    <Compile Include="XmlStats\Infrastructure\XmlStatsConfiguration.cs" />
+    <Compile Include="XmlStats\Services\Sports\XmlStatsSportService.cs" />
+    <Compile Include="XmlStats\Services\XmlStatsService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeamJStats.Domain\TeamJStats.Domain.csproj">
+      <Project>{0693585F-DF80-47CA-B731-119757C5F08E}</Project>
+      <Name>TeamJStats.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

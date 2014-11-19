@@ -1,0 +1,9 @@
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\bin\Debug\TeamJStats.Services.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\bin\Debug\TeamJStats.Services.pdb
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\bin\Debug\TeamJStats.Domain.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\bin\Debug\TeamJStats.Domain.pdb
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\obj\Debug\TeamJStats.Services.csprojResolveAssemblyReference.cache
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\obj\Debug\TeamJStats.Services.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Services\obj\Debug\TeamJStats.Services.pdb

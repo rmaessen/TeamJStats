@@ -1,0 +1,4 @@
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Domain\bin\Debug\TeamJStats.Domain.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Domain\bin\Debug\TeamJStats.Domain.pdb
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Domain\obj\Debug\TeamJStats.Domain.dll
+C:\Users\rmaessen\Documents\Visual Studio 2013\Projects\TeamJStats\TeamJStats.Domain\obj\Debug\TeamJStats.Domain.pdb
